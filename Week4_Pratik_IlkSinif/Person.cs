@@ -6,11 +6,11 @@ namespace Week4_Pratik_IlkSinif
 {
 	public class Person
 	{
-		public string name; // isim için field, camelCasing
+		private string name; // isim için field, camelCasing
 
-        public string surname;// soyadı için field
+        private string surname;// soyadı için field
 
-        public DateOnly birthDate; // doğum tarihi için field
+        private DateOnly birthDate; // doğum tarihi için field
 
         public string Name //isim  için property PascalCasing
 		{
